@@ -1,5 +1,5 @@
 package org.example.model;
 
-public enum FahrerStatus {
+public enum DriverStatus {
     ACTIVE,DNF;
 }

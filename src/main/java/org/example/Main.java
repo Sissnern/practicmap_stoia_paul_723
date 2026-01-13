@@ -4,7 +4,6 @@ import org.example.controller.*;
 import org.example.model.*;
 import org.example.repository.*;
 import org.example.service.*;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
@@ -17,8 +16,8 @@ public class Main {
             System.out.println("\n==============================");
             System.out.println("   MENIU PRINCIPAL EXAMEN");
             System.out.println("==============================");
-            System.out.println("1. Task 1: read and ");
-            System.out.println("2. Task 2: Management Orders (CRUD)");
+            System.out.println("1. Task 1: read  ");
+            System.out.println("2. Task 2: Filter by team and status (CRUD)");
             System.out.println("0. Ieșire");
             System.out.print("Alege Task: ");
 
@@ -36,5 +35,9 @@ public class Main {
             }
         }
     }
+
+
+
+private static voi runTask1()
 
     // merge service & controller
